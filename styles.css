@@ -25,3 +25,13 @@ footer {
   grid-area: footer;
   background: #AA0;
 }
+@media (max-width: 1000px) {
+  header, nav, main, footer {
+    filter: brightness(80%);
+  }
+}
+@media (max-width: 600px) {
+  header, nav, main, footer {
+    filter: brightness(50%);
+  }
+}
